@@ -8,6 +8,7 @@
     "webpack": "./node_modules/webpack/bin/webpack.js",
     "build": "npm run webpack -- --watch --mode=development",
     "postinstall": "npm run webpack",
+    "start": "node server/index.js",
     "start:dev": "npm run build & nodemon server.js --ignore src --ignore dist"
   },
   "keywords": [],
